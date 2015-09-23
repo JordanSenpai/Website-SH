@@ -53,8 +53,8 @@ ul, li { list-style:none; }
   .dropdown.menu li {
     display:block;
     text-align:center;
-    background-color:blueviolet;
-    border-bottom:1px solid #e34;
+    background-color:#99c7be;
+    border-bottom:1px solid #9EB2CA;
     height:30px;
   }
   .dropdown.menu li a{
@@ -64,7 +64,7 @@ ul, li { list-style:none; }
     background-color:#f4f4f4;
   }
   .dropdown.menu li.active a {
-    color:blueviolet;
+    color:#99c7be;
   }
 }
 @media all and (min-width: 640px) and (max-width: 1023px) {
@@ -88,8 +88,8 @@ ul, li { list-style:none; }
   .dropdown.menu li {
     display:block;
     text-align:center;
-    background-color:blueviolet;
-    border-bottom:1px solid #e34;
+    background-color:#99c7be;
+    border-bottom:1px solid #9EB2CA;
     height:30px;
   }
   .dropdown.menu li a{
@@ -99,7 +99,7 @@ ul, li { list-style:none; }
     background-color:#f4f4f4;
   }
   .dropdown.menu li.active a {
-    color:blueviolet;
+    color:#99c7be;
   }
   .dropdown.menu .hireme {
     display:none;
@@ -117,9 +117,9 @@ ul, li { list-style:none; }
   }
 }
 .navbar {
-  background-color:blueviolet;
+  background-color:#99c7be;
   color:#f4f4f4;
-  box-shadow:0px 25px 50px #f4f4f4, inset 0px -3px 0px blueviolet;
+  box-shadow:0px 25px 50px #f4f4f4, inset 0px -3px 0px #88AAA4;
   padding:20px;
   overflow:hidden;
   z-index:1;
@@ -130,7 +130,7 @@ ul, li { list-style:none; }
 .navbar li a:hover { 
   position:relative; 
   top:-1px; 
-  color:blueviolet; 
+  color:#88AAA4; 
   background-color:#f4f4f4;
   box-shadow: 0px 2px 0px #b1b1b1, inset 0px -1px 0px #b1b1b1;
   transition:0.2s;
@@ -139,14 +139,14 @@ ul, li { list-style:none; }
   font-family:'Lily Script One', cursive;
   font-size:60px;
   line-height:0px;
-  position:relative;
+  position:center;
   top:14px;
 }
 .navbar li.logo a:hover {  text-shadow: 0px 3px 0px #c71f3c;}
 .navbar li.hireme a{
-  position:relative; 
+  position:center; 
   top:-1px; 
-  color:blueviolet; 
+  color:#9EB2CA; 
   background-color:#f4f4f4;
   box-shadow: 0px 2px 0px #b1b1b1;
   font-weight:700;
@@ -168,7 +168,7 @@ ul, li { list-style:none; }
 .navbar li a.active, .navbar li.hireme a.active {
   background-color:#f4f4f4;
   color:#e34;
-  text-shadow:0px 1px 0px blueviolet;
+  text-shadow:0px 1px 0px #9EB2CA;
   top:-1px;
   border-top:4px solid #333;
 
@@ -180,11 +180,11 @@ ul, li { list-style:none; }
 }
 .navbar li a.active:hover {
   top:0px;
-  color:blueviolet;
+  color:#9EB2CA;
 }
 .navbar li a.active:active {
   top:1px;
-  color:#c71f3c;
+  color:#9EB2CA;
   border-top:5px solid #333;
 }
 .navbar a .dropdown.entypo-plus-circled.active {
@@ -199,7 +199,7 @@ ul, li { list-style:none; }
 }
 .dropdown.menu li.active {
   background-color:#f4f4f4;
-  color:#C71F3C;
+  color:#9EB2CA;
 }
 
 section {
@@ -208,7 +208,7 @@ section {
   text-align:center;
 }
 section a {  color:#e34; border-bottom:1px dashed; }
-section a:hover, section a:active { color:#be2836; }
+section a:hover, section a:active { color:#9EB2CA; }
 section.intro, section.design, section.illustration, section.about {
   position:relative;
   top:-100px;
@@ -296,7 +296,7 @@ section.design, section.illustration, section.about {
   }  
 }
 .thumbs li {
-  background-color:#e34;
+  background-color:#9EB2CA;
   height:200px;
   width:225px;
   display:inline-block;
@@ -319,7 +319,7 @@ section.design, section.illustration, section.about {
 }
 .thumbs a { border-bottom:none; }
 .thumbs a > li:before  {
-  background-color:#c71f3c; 
+  background-color:#9EB2CA; 
   color:#FFF;
   opacity:0.8; 
   position:absolute;
